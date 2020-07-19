@@ -25,9 +25,7 @@ for k in brailles:
      index = index + 1
 
 res = dict(zip(asciicodes, brailles));
-
 transtab = str.maketrans(res)
-
 
 with open(file) as f:
    content = f.readlines()
