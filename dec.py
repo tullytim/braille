@@ -4,10 +4,6 @@ import sys
 file = sys.argv[1]
 
 CAP = '⠠' 
-def braille(first, s):
-    if (first.isupper()):
-        return CAP + s
-    return s
 
 asciicodes = [' ','!','"','#','$','%','&','(',')','*','+',',','-','.','/',
           '0','1','2','3','4','5','6','7','8','9',':',';','<','=','>','?','@',
